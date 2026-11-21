@@ -306,7 +306,7 @@
 <div class="wrap">
   <header class="top">
     <p class="eyebrow">Galería</p>
-    <h1 id="mainTitle">Eventos de cierre del Centenario</h1>
+    <h1 id="mainTitle">Eventos del Centenario</h1>
     <p id="mainSubtitle">Elige una categoría para ver las fotografías</p>
   </header>
 
@@ -353,11 +353,11 @@
    simplemente se oculta sola (no rompe la galería).
    ========================================================= */
   const CATEGORIES = [
-    { id: 'cl',     icon: '📷',  label: 'Solemne Procesión',     folder: 'pro',     count: 87, ext: 'jpeg' },
-    { id: 'co',     icon: '🏞️', label: 'Santa Misa en Catedral Metropolitana',     folder: 'mis',     count: 40, ext: 'jpeg' },
-    { id: 'ex',      icon: '🎉',  label: 'Acto cultural en Plaza Barrios',      folder: 'act',      count: 34, ext: 'jpeg' },
-    { id: 'vi',     icon: '📦',  label: 'Concurso videos del Centenario',     folder: 'cen',     count: 29, ext: 'jpeg' },
-      ];
+    { id: 'pro',     icon: '📷',  label: 'Procesión de inicio',     folder: 'fotosproc',     count: 70, ext: 'jpeg' },
+    { id: 'mis',     icon: '🏞️', label: 'Santa Misa de Celebración',     folder: 'fotosmisa',     count: 32, ext: 'jpeg' },
+    { id: 'ac',      icon: '🎉',  label: 'Acto cultural',      folder: 'fotosacto',      count: 20, ext: 'jpeg' },
+    { id: 'ce',     icon: '📦',  label: 'Cena de gala',     folder: 'fotoscena',     count: 27, ext: 'jpeg' },
+  ];
 
   // Construye automáticamente la lista de imágenes de cada categoría
   // a partir de folder + count + ext (numeración 1..count).
